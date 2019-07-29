@@ -1,5 +1,7 @@
-# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) - 
+# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) 
+
   (editing and adding new features to the ServletsTask_Part1)
+  
 Исходное задание: 
 -----------------
 1) Добавить страницу JSP и Servlet регистрации. 
