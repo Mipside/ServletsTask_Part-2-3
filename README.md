@@ -1,4 +1,4 @@
-# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) 
+# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) + JUnit tests
 
   (editing and adding new features to the ServletsTask_Part1)
   
@@ -60,3 +60,5 @@
    *  Update. Поля формы заполнить данными, которые получить из GET /management/user
    
    *  Delete – после delete запись должна быть удалена из таблицы. НЕ выполнять повторный запрос на GET /management/users. 
+   
+10. Покрыть все тестами (не менее чем на 80%).
