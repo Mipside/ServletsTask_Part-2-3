@@ -1,4 +1,4 @@
-# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) 
+# Servlets (Filters, Session, Cookie, HTML, CSS, AJAX) + JUnit tests
 
   (editing and adding new features to the ServletsTask_Part1)
   
