@@ -16,7 +16,6 @@ public class ContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         BasicConfigurator.configure(); //this line helps to initialize the log4j system properly
-        // Because there was warning: "No appenders could be found for logger(log4j)"
         Storage storage = new Storage();
         UserService userService = new UserService(storage);
         User user = new User();

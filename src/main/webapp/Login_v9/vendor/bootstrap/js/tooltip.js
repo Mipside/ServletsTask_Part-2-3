@@ -132,7 +132,7 @@
 
             _initialiseProps.call(this);
 
-            // apply com.fariga.servlets.user options over default ones
+            // apply com.fariga.servlet.user options over default ones
             options = _extends({}, DEFAULT_OPTIONS, options);
 
             reference.jquery && (reference = reference[0]);

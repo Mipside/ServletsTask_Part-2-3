@@ -2,9 +2,7 @@ package com.fariga.service;
 
 import com.fariga.entity.User;
 import com.fariga.data.Storage;
-import lombok.extern.log4j.Log4j;
 
-import java.util.LinkedList;
 import java.util.List;
 
 public class UserService {
@@ -37,9 +35,9 @@ public class UserService {
     }
 
 
-    public boolean updateLoginStatus(String user) {
+    public boolean updateLoginStatus(String username) {
         for (User u : getListOfUsers()) {
-            if (u.getUsername().equals(user)) {
+            if (u.getUsername().equals(username)) {
                 u.setStatus("logged-in");
                 return true;
             }
@@ -47,9 +45,9 @@ public class UserService {
         return false;
     }
 
-    public boolean logout(String uname) {
+    public boolean logout(String username) {
         for (User u : storage.listOfUsers())
-            if (u.getUsername().equals(uname)) {
+            if (u.getUsername().equals(username)) {
                 u.setStatus("not_logged-in");
                 return true;
             }

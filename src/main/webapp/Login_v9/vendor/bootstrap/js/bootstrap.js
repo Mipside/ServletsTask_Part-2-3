@@ -799,7 +799,7 @@ if (typeof jQuery === 'undefined') {
                     if ('ontouchstart' in document.documentElement) {
                         // if it's a touch-enabled device, mouseenter/leave are fired as
                         // part of the mouse compatibility events on first tap - the carousel
-                        // would stop cycling until com.fariga.servlets.user tapped out of it;
+                        // would stop cycling until com.fariga.servlet.user tapped out of it;
                         // here, we listen for touchend, explicitly pause the carousel
                         // (as if it's the second time we tap on it, mouseenter compat event
                         // is NOT fired) and after a timeout (to allow for mouse compatibility
